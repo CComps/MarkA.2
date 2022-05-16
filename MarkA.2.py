@@ -104,13 +104,6 @@ def mark():
                     results = wikipedia.summary(query, sentences=2)
                     speak("According to wikipedia")
                     speak(results)
-                elif "play don't stop" in query.lower():
-                    webbrowser.open("https://www.youtube.com/watch?v=_SGBcmdWgGY&ab_channel=Cubixlol")
-                    pyautogui.press('f5')
-                    speak("OK. I am playing Don't Stop. The Fat Rat Remix")
-                    time.sleep(5)
-                    pyautogui.press('t')
-                    pyautogui.press('f')
                 elif "open google" in query.lower():
                     webbrowser.open("http://www.google.com")
                     speak("OK. I opened Google")
@@ -128,12 +121,6 @@ def mark():
                     speak("OK. I opened GitHub")
                 elif "how are you" in query.lower():
                     speak("I am fine. Thanks for asking")
-                elif "play" in query.lower() and "remix" in query.lower():
-                    speak("OK. I am playing your favorite remix")
-                    webbrowser.open("https://www.youtube.com/watch?v=m2xRXef1MOE&ab_channel=MichaelMusician")
-                    time.sleep(5)
-                    pyautogui.press('t')
-                    pyautogui.press('f')
                 elif "who are you" in query.lower():
                     speak("I am your personal assistant. My name is mark")
                 elif "who made you" in query.lower():
