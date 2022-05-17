@@ -8,4 +8,4 @@ YOU FIRST INSTALL LAST PYTHON AND LAST PIP
         pip install speechrecognition;
         pip install wikipedia;
         pip install pyautogui;
-        pip install requests;
+        pip install requests
